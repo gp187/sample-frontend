@@ -22,7 +22,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: naologicbob
+          username: gp187
           password: ${{ secrets.NAO_DOCKER_DEPLOY_PUBLIC }}
       - name: Build and push
         uses: docker/build-push-action@v4
