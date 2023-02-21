@@ -23,7 +23,7 @@ jobs:
         with:
           registry: ghcr.io
           username: gp187
-          password: ${{ secrets.NAO_DOCKER_DEPLOY_PUBLIC }}
+          password: ${{ secrets.NAO_DOCKER_DEPLOY_PUBLIC2 }}
       - name: Build and push
         uses: docker/build-push-action@v4
         with:
